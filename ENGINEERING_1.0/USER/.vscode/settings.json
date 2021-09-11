@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.m": "matlab",
+        "can_1_receive.h": "c",
+        "struct_typedef.h": "c",
+        "xutility": "cpp",
+        "chassis_behaviour.h": "c",
+        "chassis_app.h": "c",
+        "chassis_task.h": "c",
+        "detect_task.h": "c",
+        "rc.h": "c",
+        "gimbal_task.h": "c"
+    }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="1000" Connection="1" SerialNo="0" IP="" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="40000" />
+            </JLink>
+            <ElfFile Name="G:\Experiment\ACE\CodeData\Infantry\INFANTRY_xxxxxxx\OBJ\infantry_chassis.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="JSCOPE_auto_pitch_angle" Address="0x200001A0" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-852" YMaxSampled="477" YAvgSampled="0" Offset="4" ShowInGraph="0" YOffset="200" IsAutoConfig="0" YResolution="200" MaxValue="2" File="..\application\gimbal\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="JSCOPE_auto_yaw_angle" Address="0x200001A4" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-5099" YMaxSampled="3816" YAvgSampled="0" Offset="8" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\application\gimbal\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="JSCOPE_auto_kalman_yaw_angle" Address="0x200001AC" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="176" YMinSampled="-600" YMaxSampled="600" YAvgSampled="0" Offset="12" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="500" MaxValue="1000" File="..\application\gimbal\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

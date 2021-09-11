@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dsfasfsdf dfasdgsd, fsfsdva, LIC=BUURY-I3VTL-RA8DM-X5J88-DMA37-G99RB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\STM32study\MDK5\ARM\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\ACE ROBOMASTER\ACE2021engineering-ace_edddddge\ACE2021 engineering\ENGINEERING_1.0\USER\Project_F407.uvprojx
+Project File Date:  07/23/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\STM32study\MDK5\ARM\ARM\ARMCC\Bin'
+Build target 'infantry_chassis'
+compiling vl53l0.c...
+..\control\vl53l0.c(81): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          VL53L0.distance = (((float)(temp) / 10) - 4.1);
+..\control\vl53l0.c: 1 warning, 0 errors
+compiling photoelectric.c...
+compiling gimbal_app.c...
+compiling calibrate_task.c...
+compiling gimbal_behaviour.c...
+compiling chassis_task.c...
+compiling gimbal_task.c...
+..\application\gimbal\gimbal_task.c(40): warning:  #177-D: variable "visual_red_blue"  was declared but never referenced
+  static uint16_t visual_red_blue = 0;
+..\application\gimbal\gimbal_task.c: 1 warning, 0 errors
+linking...
+Program Size: Code=40914 RO-data=3270 RW-data=484 ZI-data=87676  
+FromELF: creating hex file...
+"..\OBJ\infantry_chassis.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\STM32study\MDK5\ARM\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
