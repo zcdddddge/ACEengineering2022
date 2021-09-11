@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "gimbal_task.h": "c",
+        "triangles.h": "c",
+        "chassismotor.h": "c",
+        "motor.h": "c",
+        "stm32f4xx.h": "c"
+    }
+}

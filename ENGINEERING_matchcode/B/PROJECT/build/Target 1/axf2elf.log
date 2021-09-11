@@ -1,0 +1,4 @@
+objcopy.exe --update-section ER_IROM1="d:\ACE ROBOMASTER\ACE2021engineering-ace_edddddge\工程2021\B\PROJECT\build\Target 1\PROJECT.bin" "d:\ACE ROBOMASTER\ACE2021engineering-ace_edddddge\工程2021\B\PROJECT\build\Target 1\PROJECT.axf" "d:\ACE ROBOMASTER\ACE2021engineering-ace_edddddge\工程2021\B\PROJECT\build\Target 1\PROJECT.elf"
+
+objcopy.exe: d:\ACE ROBOMASTER\ACE2021engineering-ace_edddddge\工程2021\B\PROJECT\build\Target 1\PROJECT.elf: warning: allocated section `RW_IRAM1' not in segment
+
